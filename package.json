@@ -1,0 +1,10 @@
+{
+  "name": "puppeteer",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "fs-extra": "^7.0.1",
+    "puppeteer-core": "^1.13.0"
+  }
+}
