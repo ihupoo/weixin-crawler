@@ -3,16 +3,16 @@ const path = require("path");
 const fse = require("fs-extra");
 
 // const URL = 'https://mp.weixin.qq.com/mp/homepage?__biz=MzA5NzQxOTM2Mw==&hid=5&sn=b5883fd15321dc38d1a82a07467c9b49';
-// const URL = 'https://mp.weixin.qq.com/mp/homepage?__biz=MzA5NzQxOTM2Mw==&hid=2&sn=b1e5acf456ef87420745b1e332df4e5d';
+const URL = 'https://mp.weixin.qq.com/mp/homepage?__biz=MzA5NzQxOTM2Mw==&hid=2&sn=b1e5acf456ef87420745b1e332df4e5d';
 
-const NODE_ARGS = process.argv.splice(2)[0];
+// const NODE_ARGS = process.argv.splice(2)[0];
 
-if(!NODE_ARGS){
-    console.log('Error: url参数缺失');
-    process.exit(1)
-}
+// if(!NODE_ARGS){
+//     console.log('Error: url参数缺失');
+//     process.exit(1)
+// }
 
-const URL = NODE_ARGS;
+// const URL = NODE_ARGS;
 
 const INCLUDE_URL = 'homepage'
 
